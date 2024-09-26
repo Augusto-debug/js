@@ -1,2 +1,2 @@
-let expressaoMatematica = eval(prompt("Por favor digite uma expressão matematica :"));
+let expressaoMatematica = eval(prompt("Por favor digite uma expressão matematica : "));
 alert(expressaoMatematica);
