@@ -20,9 +20,8 @@ switch (data) {
   case 5:
     document.write("Hoje é Sexta");
     break;
-  case 6:
+  default:
     document.write("Hoje é Sábado");
     break;
-  default:
-    document.write("Dia Inválido");
+  
 }

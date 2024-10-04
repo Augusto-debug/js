@@ -1,19 +1,9 @@
-.onibus {
-    width: 200px;
-    height: 400px;
-    border: 3px solid rgb(9, 9, 165);
-    border-radius: 20px;
-    display: flex;
-    margin: 70px auto;
+.onibus_lugares, .onibus_lugares td {
+    border: 1px solid black;
+    margin: auto;
     padding: 10px;
 }
 
-.motorista {
-    display: flex;
-    flex-direction: column;
-}
- img {
-    height: 40px;
-    width: 40px;
-    margin : 20px;
+.onibus_lugares {
+    border-radius: 20px;
 }
