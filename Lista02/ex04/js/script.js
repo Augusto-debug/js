@@ -10,6 +10,7 @@ for(let i = 0; i < entrada; i++) {
     } else {
         homens.push(nome);
     } 
+    
 }
 
 const maiorVetor = homens.length > mulheres.length ? homens.length : mulheres.length;
