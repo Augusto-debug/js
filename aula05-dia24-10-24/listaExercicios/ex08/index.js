@@ -3,6 +3,10 @@ const variados = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K',
    'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 
    'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' ,0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
+
+let resultado = [];
 for(let i = 0; i < 8; i++){
-   console.log(variados[Math.floor(Math.random() * variados.length)]);
+   resultado.push(variados[Math.floor(Math.random() * variados.length)]);
 }
+
+console.log(resultado.join(''));
