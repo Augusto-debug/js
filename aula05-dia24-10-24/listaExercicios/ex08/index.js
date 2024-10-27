@@ -11,12 +11,12 @@ for(let i = 0; i < tamanhoSenha; i++){
 
 document.write(resultado.join(''));
 
-const generatePassword = (tamanhoSenha) => {
-   let resultado = [];
-   for(let i = 0; i < tamanhoSenha; i++){
-      resultado.push(variados[Math.floor(Math.random() * variados.length)]);
-   }
-   return resultado.join('');
-};
+// const generatePassword = (tamanhoSenha) => {
+//    let resultado = [];
+//    for(let i = 0; i < tamanhoSenha; i++){
+//       resultado.push(variados[Math.floor(Math.random() * variados.length)]);
+//    }
+//    return resultado.join('');
+// };
 
-console.log(generatePassword(10)); // 10 é o tamanho da senha
+// console.log(generatePassword(10)); 
