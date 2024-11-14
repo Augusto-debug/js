@@ -1,0 +1,31 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.winner {
+    background-color: yellow;
+    color: black;
+}
+
+.card_style {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(6, 151, 6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card_style:hover {
+    background-color: rgb(6, 151, 6, 0.5);
+}
