@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px  0;
+}
+
+p {
+    text-align: center;
+    margin: 20px 0;
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    color: blue;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; 
+}
+
+.botoes input {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.botoes input:hover {
+    transform: scale(0.9);
+}
