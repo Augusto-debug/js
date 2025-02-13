@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/jAlertWifi.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="nivelDificuldade">  
+        <h2>Nivel</h2>
+        <select name="dificuldade" id="dificuldade">
+          <option value="0">Selecione</option>
+          <option value="1">Facil</option>
+          <option value="2">Medio</option>
+          <option value="3">Dificil</option>
+        </select>
+      </div>
+      <div class="tempo">
+        <h2>Tempo :</h2>
+        <span class="tempoNum">00:00</span>
+      </div>
+      <div class="botoes">
+        <input type="button" value="Iniciar" id="iniciar" />
+        <input type="button" value="Pausar" id="pausar" />
+        <input type="button" value="Parar" id="parar" />
+      </div>
+    </header>
+    <main class="numerosJogo">
+      <div class="tracoNum">0</div>
+        <div class="tracoNumero"></div>
+    </main>
+    <footer class="rodape">
+        <div>
+            <p>Acertos:</p>
+            <span id="acertos">0 (0%)</span>
+        </div>
+        <div>
+            <p>Erros:</p>
+            <span id="erros">0</span>
+        </div>
+        <div>
+            <p>Numeros pares sorteados:</p>
+            <span id="paresSorteados">0</span>
+        </div>
+    </footer>
+    <!-- alertwifi -->
+    <script src="js/index.js"></script>
+    <script src="js/jAlertWifi.js"></script>
+  </body>
+</html>

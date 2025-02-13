@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: 10vh;
+    background-color: black;
+    color: yellow;
+    border: 1px solid black;
+}
+
+.nivelDificuldade {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: yellow;
+    border: 1px solid black;
+}
+
+.nivelDificuldade > h2 {
+    margin-right: 10px;
+}
+
+.nivelDificuldade select {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(238, 182, 0);
+}
+
+.tempo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.tempo > h2 {
+    margin-right: 10px;
+}
+
+.botoes input {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(238, 182, 0);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.numerosJogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+.tracoNumero {
+    border: 10px solid black;
+    width: 200px;
+}
+
+.tracoNum {
+    font-size: 150px
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: yellow;
+    border: 1px solid black;
+}
