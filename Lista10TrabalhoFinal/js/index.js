@@ -107,6 +107,11 @@ window.addEventListener("DOMContentLoaded", () => {
       tempo.textContent = formataNumero(dificuldadeAtual);
     };
     iniciar.onclick = () => {
+      const dificuldadeSelecionada = document.querySelector("#dificuldade");
+    if (dificuldadeSelecionada.value === "0") {
+      alert("Por favor, selecione um nível de dificuldade antes de iniciar.");
+      return; 
+    }
       if (!intervaloCronometro && dificuldadeAtual > 0) {
         intervaloCronometro = setInterval(() => {
           dificuldadeAtual--;
